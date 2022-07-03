@@ -1,0 +1,12 @@
+.App {
+    background: #1d1c20;
+    color: #ddd;
+}
+
+.temporary-footer {
+    font-size: 1.5rem;
+    padding: 4rem auto;
+    margin: 4rem auto;
+    text-align: end;
+    background: #1d1c20;
+}

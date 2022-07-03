@@ -8,6 +8,9 @@ function App() {
       <Navbar>
         <Homepage/>
       </Navbar>
+      <div className='temporary-footer'>
+        Designed by Sejan Mahmud Pranto
+      </div>
     </div>
   );
 }
