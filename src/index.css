@@ -1,9 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/4478f082ff017a0249c57dc022a524f8?family=Quantico-Bold);
 
 
 body {
   margin: 0;
-  font-family: quantico-bold, sans-serif;
+  font-family: 'Quantico', sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
