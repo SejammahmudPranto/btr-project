@@ -34,6 +34,20 @@
     background-size: 75%;
     max-width: 560px;
 }
+.division-games {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    padding: 0 6rem;
+    gap: 4rem;
+    position: relative;
+    margin-top: 60px;
+}
+
+.division {
+    width: 100%;
+    aspect-ratio: 1/1;
+
+}
 
 @media only screen and (max-width: 600px) {
     .divisions img {
@@ -52,5 +66,13 @@
         margin: 0 auto;
         text-align: center;
         width: 80%;
+    }
+    .division-games {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5rem;
+        gap: 4rem;
+        position: relative;
+        margin-top: 60px;
     }
 }
