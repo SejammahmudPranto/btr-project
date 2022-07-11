@@ -1,0 +1,31 @@
+.news {
+    max-width:100%;
+    cursor: pointer;
+}
+
+.news .img-wrapper{
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.news .img-wrapper:hover img {
+    transform: scale(1.1);
+}
+.news img{
+    height: auto;
+    width: 100%;
+    transition: transform 250ms ease-in-out;
+}
+
+.news h4 {
+    display: block;
+    color: #ed182d;
+    margin: 6px 0;
+    font-size: 16px;
+    line-height: 20.88px;
+}
+
+.news p {
+    font-size: 20px;
+    line-height: 26.1px;
+}

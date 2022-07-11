@@ -49,6 +49,79 @@
 
 }
 
+.news-division {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 60px;
+    column-gap: 2rem;
+}
+
+.all-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+.all-news h4 {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.all-news h4:hover {
+    color: #ed182d;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    padding-top: 2rem;
+    align-items: flex-start;
+    border: #1d1c20;
+    border-top: #ed182d;
+    border-style: solid;
+
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.footer-logo img {
+    width: 120px;
+    height: auto;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h5 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+.footer-links h5:hover {
+    color: #ed182d;
+}
+
+.copyright {
+    margin: auto 0;
+    width: 15rem;
+}
+.copyright h6 {
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .divisions img {
         width: 300px;
@@ -70,9 +143,18 @@
     .division-games {
         display: flex;
         flex-direction: column;
-        padding: 0 5rem;
+        padding: 0 2.5rem;
         gap: 4rem;
         position: relative;
         margin-top: 60px;
     }
+
+    .news-division {
+        display: flex;
+        flex-direction: column;
+        margin: 0 60px;
+        row-gap: 4rem;
+    }
+    
 }
+

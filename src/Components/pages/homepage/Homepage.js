@@ -10,6 +10,12 @@ import mobilelg from "../../../assets/mobilelg.jpg";
 import mobilelg2 from "../../../assets/mobilelg2.jpg";
 import others from "../../../assets/others.jpg";
 import others2 from "../../../assets/others2.jpg";
+import news1 from "../../../assets/news1.jpg";
+import news2 from "../../../assets/news2.jpg";
+import news3 from "../../../assets/news3.jpg";
+import News from '../../news/News';
+import btrLogo from "../../../assets/BigetronLogo.svg";
+
 
 const Homepage = () => {
   return (
@@ -54,6 +60,44 @@ const Homepage = () => {
       backgroundSize: "100%",
       marginTop: "4rem",
       }}>NEWS</h4>
+    </div>
+    <div className='news-division'>
+      <News image={news1} date={'30 JUNE 2022'} details={'Falah Kembali! Kejutan Pertama Divisi MLBB Bigetron Esports'}/>
+
+      <News image={news2} date={'05 July 2022'} details={'Inilah Formasi Baru Bigetron RA, Siap Raih Hasil Maksimal di Season Fall!'}/>
+
+      <News image={news3} date={'11 June 2022'} details={'Bigetron Red Aliens Tunjuk Doni "LaFlame" Sebagai Pelatih Baru'}/>
+
+    </div>
+    <div className='all-news'>
+      <h4>View All News</h4>
+    </div>
+    <div className='divisions'>
+      <h4 style={{ backgroundImage: `url(${background})`,
+      backgroundRepeat  : 'no-repeat',
+      backgroundPosition: 'center',
+      backgroundSize: "100%",
+      marginTop: "4rem",
+      }}>RESULTS</h4>
+    </div>
+    <div className='Footer'>
+        <div className='footer-logo'>
+          <img src={btrLogo} alt='logo'/>
+        </div>
+        <div className='footer-links'>
+            <h5>ABOUT</h5>
+            <h5>News &amp; events</h5>
+            <h5>faq</h5>
+            <h5>privacy policy</h5>
+        </div>
+        <div className='footer-links'>
+            <h5>matches</h5>
+            <h5>Terms and conditions</h5>
+            <h5>contact</h5>
+        </div>
+        <div className='copyright'>
+          <h6>©2022 BIGETRON ESPORTS ALL RIGHTS RESERVED</h6>
+        </div>
     </div>
     </>
 
